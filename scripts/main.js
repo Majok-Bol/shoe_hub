@@ -4,17 +4,20 @@ const productContainer = document.getElementById("products-container");
 const selectedCategory = document.getElementById("selected-category");
 //store all categories
 const categories = [];
-//store all categories
-shoeProducts.map((product) => {
-    categories.push(product.category)
-})
-//loop through categories
-for (let i = 0; i < categories.length; i++) {
+shoeProducts.forEach(product => {
+    if (!categories.includes(product.category)) {
+        categories.push(product.category);
+    }
+});
+
+// Populate dropdown
+categories.forEach(category => {
     const option = document.createElement("option");
-    option.value = categories[i];
-    option.textContent = categories[i];
+    option.value = category;
+    option.textContent = category;
     selectedCategory.appendChild(option);
-}
+});
+
 
 //display products
 //based on the selected value
@@ -33,7 +36,7 @@ function filterProducts() {
                 <h2 class="title">${product.title}</h2>
                 <img src="${product.image || 'https://via.placeholder.com/400x400?text=No+Image'}" class="product-image" alt="${product.title}" />
                 <br>
-                <button class="add-to-cart" id="${product.id}">Add to Cart</button>
+                <button class="add-to-cart" id="${product.id}">ADD TO CART</button>
                 <p class="description">${product.description}</p>
                 <p class="product-price"><strong>Price:</strong> ${product.price}</p>
                 <p class="category"><strong>Category:</strong> ${product.category}</p>
@@ -100,7 +103,7 @@ productContainer.addEventListener("click", (e) => {
 })
 
 const links = document.querySelectorAll("header a");
-const currrentPage = window.location.pathname;
+const currentPage = window.location.pathname;
 
 links.forEach((link => {
     if (currentPage.includes(link.getAttribute("href"))) {

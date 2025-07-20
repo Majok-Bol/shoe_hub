@@ -106,7 +106,7 @@ export const shoeProducts = [
     price: "$59.99",
     rating: "3.9/5",
     title: "Street Style Pro"
-  }, 
+  },
   {
     id: 13,
     category: "Snow Boots",
@@ -214,5 +214,96 @@ export const shoeProducts = [
     price: "$159.99",
     rating: "4.7/5",
     title: "Polar Shield"
-  }
+  },
+  {
+  id: 25,
+  category: "Winter",
+  description: "Waterproof snow boots with fleece lining for extreme cold.",
+  image: "https://images.unsplash.com/photo-1617143207675-e7e6371f5f5d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjUxfHxzbmVha2Vyc3xlbnwwfHwwfHx8MA%3D%3D",
+  price: "$179.99",
+  rating: "4.8/5",
+  title: "Arctic Trekker"
+},
+{
+  id: 26,
+  category: "Winter",
+  description: "Insulated gloves with touchscreen compatibility.",
+  image: "https://images.unsplash.com/photo-1698108223397-3d222e80d7ea?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMwfHxzbmVha2Vyc3xlbnwwfHwwfHx8MA%3D%3D",
+  price: "$49.99",
+  rating: "4.5/5",
+  title: "Frostbite Gloves"
+},
+{
+  id: 27,
+  category: "Winter",
+  description: "Heavy-duty winter coat with windproof technology.",
+  image: "https://images.unsplash.com/photo-1623684225794-a8f1f5037f5c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHxzbmVha2Vyc3xlbnwwfHwwfHx8MA%3D%3D",
+  price: "$229.99",
+  rating: "4.9/5",
+  title: "Blizzard Parka"
+},
+{
+  id: 28,
+  category: "Winter",
+  description: "Removable spikes for boots to prevent slipping on ice.",
+  image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHNuZWFrZXJzfGVufDB8fDB8fHww",
+  price: "$29.99",
+  rating: "4.3/5",
+  title: "Ice Grip Traction"
+},
+{
+  id: 29,
+  category: "Winter",
+  description: "Ultra-warm fleece-lined hat for sub-zero temperatures.",
+  image: "https://images.unsplash.com/photo-1588361861040-ac9b1018f6d5?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzE1fHxzbmVha2Vyc3xlbnwwfHwwfHx8MA%3D%3D",
+  price: "$24.99",
+  rating: "4.6/5",
+  title: "Thermal Beanie"
+},
+{
+  id: 30,
+  category: "Winter",
+  description: "Extra-long knitted scarf with moisture-wicking fabric.",
+  image: "https://images.unsplash.com/photo-1636718282214-0b4162a154f0?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTgzfHxzbmVha2VyfGVufDB8fDB8fHww",
+  price: "$34.99",
+  rating: "4.4/5",
+  title: "Snowbound Scarf"
+},
+{
+  id: 31,
+  category: "Winter",
+  description: "High-speed sled with reinforced handles for snowy hills.",
+  image: "https://images.unsplash.com/photo-1744814917835-eb4a2e82b8e8?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYwfHxzbmVha2VyfGVufDB8fDB8fHww",
+  price: "$59.99",
+  rating: "4.7/5",
+  title: "Avalanche Sled"
+},
+{
+  id: 32,
+  category: "Winter",
+  description: "Merino wool socks designed for extreme cold weather.",
+  image: "https://images.unsplash.com/photo-1744814917891-070900ee021d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU2fHxzbmVha2VyfGVufDB8fDB8fHww",
+  price: "$19.99",
+  rating: "4.9/5",
+  title: "Polar Expedition Socks"
+},
+{
+  id: 33,
+  category: "Winter",
+  description: "Water-resistant backpack with thermal insulation for winter hikes.",
+  image: "https://images.unsplash.com/photo-1710553455483-b8c48d365c23?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fHNuZWFrZXJ8ZW58MHx8MHx8fDA%3D",
+  price: "$89.99",
+  rating: "4.5/5",
+  title: "Icebound Backpack"
+},
+{
+  id: 34,
+  category: "Winter",
+  description: "Professional ice skates with reinforced ankle support.",
+  image: "https://images.unsplash.com/photo-1695686331766-16a2c3c2c382?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzZ8fHNuZWFrZXJ8ZW58MHx8MHx8fDA%3D",
+  price: "$129.99",
+  rating: "4.8/5",
+  title: "Frozen Lake Skates"
+}
+
 ];

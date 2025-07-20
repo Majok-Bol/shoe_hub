@@ -12,7 +12,7 @@ clearData.addEventListener("click", () => {
 
 })
 const links = document.querySelectorAll("header a");
-const currrentPage = window.location.pathname;
+const currentPage = window.location.pathname;
 
 links.forEach((link => {
     if (currentPage.includes(link.getAttribute("href"))) {

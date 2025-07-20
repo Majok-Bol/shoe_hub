@@ -13,11 +13,11 @@ if (storedItems.length === 0) {
                 <img src="${product.image || 'https://via.placeholder.com/400x400?text=No+Image'}" class="product-image" alt="${product.title}" />
             
                 <div>
-                <button class="remove-from-cart" id="${product.id}">Remove from Cart</button>
+                <button class="remove-from-cart" id="${product.id}">REMOVE FROM CART</button>
                 </div>
                 
                  <div>
-                   <button class="order-item" id="${product.id}">Order item</button>
+                   <button class="order-item" id="${product.id}">ORDER ITEM</button>
                 </div
               
                 <p class="description">${product.description}</p>

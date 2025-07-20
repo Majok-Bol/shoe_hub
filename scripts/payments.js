@@ -1,5 +1,4 @@
 import { grandTotal } from "/scripts/total.js";
-console.log("Payments is working");
 const deposit = document.getElementById("deposit");
 const buy = document.getElementById("buy");
 const balance = document.getElementById("balance");
