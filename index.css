@@ -261,5 +261,13 @@ padding:10px;
 }
 #deposit,#buy{
     padding:10px;
+
+
+}
+#items{
+    font-size: 1.4rem;
+}
+#totalContainer,#balance{
+    font-size: 1.4rem;
 }
 }

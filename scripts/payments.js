@@ -48,7 +48,7 @@ deposit.addEventListener("click", () => {
         initialBalance.textContent = `${initialAmount.toFixed(2)} USD`;
         //add to local storage
         localStorage.setItem("balance", JSON.stringify(initialAmount));
-        alert(`${amount} deposited successfully`);
+        alert(`${amount} USD deposited successfully`);
     }
     if (amount > max) {
         alert(`Maximum deposit is: ${max}`);
