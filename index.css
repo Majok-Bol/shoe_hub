@@ -232,4 +232,13 @@ button{
 .cart-items{
     font-size: 1.4;
 }
+.payment-div{
+    margin:10px;
+}
+#input{
+    width:40%;
+    font-size: 1rem;
+margin:10px;
+
+}
 }
