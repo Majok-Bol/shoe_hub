@@ -3,7 +3,9 @@ body {
     padding-top: 80px;
 
 }
-
+a{
+    cursor: pointer;
+}
 .welcome p {
     text-align: center;
     padding: 10px;
@@ -220,7 +222,8 @@ button{
 }
 #selected-category {
     margin: 10px;
-    padding: 8px;
+    padding: 14px;
+    width:40%;
 
 
 
@@ -230,7 +233,7 @@ button{
     font-size: 1.4rem;
 }
 .cart-items{
-    font-size: 1.4;
+    font-size: 1.8rem;
 }
 .payment-div{
     margin:10px;
@@ -240,5 +243,19 @@ button{
     font-size: 1rem;
 margin:10px;
 
+}
+.add-to-cart{
+    font-size: 1.2rem;
+}
+.remove-from-cart{
+
+    font-weight:400;
+        font-size: 1.2rem;
+}
+.order-item{
+
+        font-weight:400;
+        margin:4px;
+            font-size: 1.2rem;
 }
 }
