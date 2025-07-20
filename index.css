@@ -193,7 +193,7 @@ button{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin:10px;
 }
 #clearDataBtn{
@@ -205,7 +205,7 @@ button{
 button{
     border-radius: 4px;
     cursor: pointer;
-    padding:8px;
+    padding:6px;
         border-style: groove;
 
 }
@@ -223,14 +223,14 @@ button{
 #selected-category {
     margin: 10px;
     padding: 14px;
-    width:40%;
+
 
 
 
 
 }
 .card{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 .cart-items{
     font-size: 1.8rem;
@@ -242,6 +242,7 @@ button{
     width:40%;
     font-size: 1rem;
 margin:10px;
+padding:10px;
 
 }
 .add-to-cart{
@@ -257,5 +258,8 @@ margin:10px;
         font-weight:400;
         margin:4px;
             font-size: 1.2rem;
+}
+#deposit,#buy{
+    padding:10px;
 }
 }
