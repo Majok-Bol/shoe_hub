@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payments</title>
+    <link rel="stylesheet" href="/index.css" />
+</head>
+
+<body>
+    <header>
+          <div id="navbar">
+            <a href="/index.html">Home</a>
+             <a href="/pages/categories.html">Categories</a>
+            <a href="/pages/cart.html"> 🛒Cart</a>
+            <a href="/pages/orders.html">My Orders</a>
+            <a href="/pages/payments.html">Payments</a>
+            <a href="/pages/privacy.html">Privacy Policy</a>
+        </div>
+
+
+    </header>
+    <div class="payment-div">
+        <input type="number" min="10" max="10000000" id="input" placeholder="Enter amount to deposit" id="input" />
+        <button id="deposit">DEPOSIT</button>
+
+        <button id="buy">PAY</button>
+        <div id="items">
+            <p><strong>Items Ordered: </strong></p>
+            <ol id="item" type="1"></ol>
+
+        </div>
+
+        <p id='totalContainer'><strong>Total Cost: </strong><span id="total"></span></p>
+
+        <p id="balance"><strong>My Account Balance: </strong><span id="initial-balance"></span></p>
+    </div>
+
+    <script src="/pages/payments.js" type="module"></script>
+</body>
+
+</html>
